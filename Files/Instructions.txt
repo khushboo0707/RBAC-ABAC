@@ -1,0 +1,17 @@
+FOR RBAC:-
+Constraints: Max no. of user to role, role to user, role to permission and permission to role.
+RBAC data generation 0: Number input with 2 constraints by user and random assignment output.
+RBAC data generation 1: Number input with 4 constraints by user and random assignment output.
+RBAC role hierarchy 0: Role hierarchy user input.
+RBAC0: Access check based on RBAC data generation.
+RBAC1: Access check based on RBAC data generation and role hierarchy.
+Role-Permission Input: User input of role-permission combination with 4 constraints check.
+User-Role Input 0: User input of user-role combination with 4 constraints check.
+RBAC role exclusivity: Role exclusivity user input with role hierarchy check.
+RBAC role hierarchy 1: Role hierarchy user input with role exclusivity check.
+User-role Input 1: User input of user-role combination with 4 constraints and role hierarchy/exclusivity check.
+
+FOR ABAC:-
+ABAC data generation: Input of total number of subjects, subject attributes, possible subject attribute values, objects, object attributes, possible object attribute values,
+                      operations and rules with random assignment output.
+ABAC: Access check based on ABAC data generation.

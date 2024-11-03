@@ -1,0 +1,10 @@
+MaxRU: 8
+MaxUR: 4
+U1 : R3 R4 R5 R6 R7 R8 
+U2 : R4 R7 
+U3 : R2 R5 R7 
+U4 : R1 R2 R4 R5 R7 
+U5 : R1 R2 R3 R4 R5 R6 R8 
+U6 : R6 
+U7 : R1 R2 R3 R8 
+U8 : R1 R3 R6 R8 
